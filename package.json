@@ -1,0 +1,30 @@
+{
+  "name": "injectit",
+  "version": "0.0.0",
+  "description": "A DI library",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present"
+  },
+  "workspaces": [
+    "packages/core"
+  ],
+  "keywords": [
+    "DI",
+    "Dependency Injection"
+  ],
+  "author": "Michael Rumyantsev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyantsevMichael/injectit.git"
+  },
+  "homepage": "https://github.com/RumyantsevMichael/injectit#readme",
+  "bugs": {
+    "url": "https://github.com/RumyantsevMichael/injectit/issues"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}

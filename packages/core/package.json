@@ -1,0 +1,19 @@
+{
+  "name": "@injectit/core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "ts-node tests/Container.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyantsevMichael/injectit.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RumyantsevMichael/injectit/issues"
+  },
+  "homepage": "https://github.com/RumyantsevMichael/injectit#readme"
+}
